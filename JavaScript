@@ -1,0 +1,762 @@
+//!  Date : 1/12/2023
+//* Day : 1 
+
+
+
+//!                        JAVASCRIPT
+//?  It is used to make website or apps more useful / Dynamic
+
+//? First we need install a code editor where we writes our code
+//? like : Vs Studio
+//? and install node
+
+//* create a folder (Sachin)
+//? Open our vs code
+//? then we create a file on sachin folder (script.js)
+
+//***************************************************************************** */
+
+
+//!                         Variables 
+//? Var 
+//? let
+//? const
+
+//* Rules :
+//? 1. starting letter must be (a-z) (A-Z), (_) and ($)
+//? 2. after the letters we can use numbers (0-9) : like -> friend1
+//? 3. JavaScript is case-sensitive (a is not equal to A)
+
+
+
+
+
+
+//! Date : 4/12/2023
+//? Day 2,3
+//***************************************************************************** */
+
+
+
+//!                               DATA TYPES
+//*           Primitive                                Non-Primitive
+//?            1. String                                   1. Function
+//?            2. Number                                   2. Array
+//?            3. Undefined                                3. Object
+//?            4. Null
+//?            5. Boolean
+//?            6. Bigint
+//?            7. Syntax
+
+
+
+//!  1. String 
+//*************************** */
+
+//? if we put anything between these three ("", '', ``) 
+//? that's called string
+// like:
+
+// var friend1 = "Aman";
+// var friend2 = "Sachin";
+// var friend3 = "Navii";
+
+// console.log(friend1)
+// console.log(typeof friend1)
+
+
+//!  2. Number  
+//*************************** */
+
+//? Represents numeric values.
+//? Example: 
+// let age = 25;
+
+
+//!  3. Boolean 
+//*************************** */
+
+//? Represents a logical value indicating true or false.
+
+// Example: let isStudent = true;
+
+
+
+//!  4. Undefined 
+//*************************** */
+
+//? Represents a variable that has been declared but not assigned a value.
+
+// Example: 
+// let x; (The value of x is undefined)
+
+
+
+//!  5. Null
+//*************************** */
+
+//? Represents the absence of a value.
+
+// Example: 
+// let y = null;
+
+
+//!  6. Bigint
+//*************************** */
+
+//? BigInt variables are used to store big integer values that are too big to be represented by a normal  Number.
+
+// let num = 9007199254740991
+// console.log(num)
+// console.log(typeof num)
+
+// let num1 = 90071992547409911254654634n
+// console.log(num1)
+// console.log(typeof num1)
+
+// let num2 = BigInt("90071992547409911254654634")
+// console.log(num2)
+// console.log(typeof num2)
+
+
+
+
+//! >>>>>>>>>>>>>>>>>      Non - Primitive
+
+
+
+
+
+//! 1. Function
+//********************************* */
+
+//? JavaScript functions are used to perform operations. 
+//? We can call JavaScript function many times to reuse the code.
+
+
+// function functionName() {}
+// console.log(typeof functionName)
+
+
+// //! 2. Array
+// //********************************* */
+
+// let sachin = [];
+// console.log(typeof sachin);
+
+
+
+//! 3. Object 
+//********************************* */
+
+// var sachine = {}
+// console.log(typeof sachine)
+
+
+
+
+
+
+
+
+
+
+
+//! Date : 5/12/2023
+//? Day 4
+//******************************************************************** */
+
+
+// let num;
+// let sq = 5
+// var str = `shinchan`
+// let nu = ''
+// const str = 6541654n
+
+
+
+
+
+
+//!>>>>>>>>>>>>             EXPRESSIONS AND OPERATORS           <<<<<<<<<<<<<<<<<<<<!//
+
+//*                 5+20             5 is operands
+//*                                  + is operator 
+//*                                  and combination of both called Expression
+
+//?                   1. Assignment operator   ✅ 
+//?                   2. Arithmetic operator   ✅ 
+//?                   3. Comparison operator   ✅ 
+//?                   4. Logical operator      ✅ 
+//?                   5. String operator       ✅ 
+//?                   6. Conditional (ternary) operator 
+
+
+
+
+//*::::::::::::::         1. Assignment operator            ::::::::::::::::://
+
+//?   An Assignment operator assign a value to its left operand based on the value of its right operand.
+//?   the simple assignment operator is equal (=)
+
+// ?>>>>>      a)    = : Assign a value to a variable
+// ?>>>>>      b)    +=: Add and assign
+// ?>>>>>      c)    -=: Subtract and assign
+// ?>>>>>      d)    *=: Multiply and assign
+// ?>>>>>      e)    /=: Divide and assign
+
+
+// let num = 2;
+// num+=1;
+// num-=1;
+// num*=2;
+// num/=2;
+// console.log(num)
+
+
+
+
+//*::::::::::::::         2. Arithmetic operator            ::::::::::::::::://
+
+
+//?          An Arithmetic operator takes numerical values
+//?          (either literal or variable) as their operand stand
+//?          return a single numerical value.
+
+
+// let myMoney = 20;
+// let yourMoney = 10;
+
+
+// console.log(myMoney + yourMoney)        //? Addition
+// console.log(myMoney - yourMoney)        //? Subtract
+// console.log(myMoney * yourMoney)        //? multiply
+// console.log(myMoney / yourMoney)        //? divide
+// console.log(myMoney % yourMoney)        //? Module
+
+
+
+
+
+
+
+
+//! syntax Sugar
+//? Increment Operator
+// i++       //* Post increment
+// let myMoney = 20;
+// // // myMoney++;
+// console.log(myMoney++)
+// // ++i       //* pre increment
+// myMoney = 20;
+// // // ++myMoney;
+// console.log(++myMoney);
+
+// // //? Decrement operators 
+// // i--       //* Post decrement
+// myMoney = 20;
+// // myMoney--;
+// console.log(myMoney--);
+
+// // --i       //* Pre decrement
+// // --myMoney;
+// console.log(--myMoney);
+
+
+
+
+
+
+
+
+
+
+
+
+//! Date : 6/12/2023
+//? Day 5
+//******************************************************************** */
+
+
+
+
+//*::::::::::::::::        3. Comparison (Relational) operators       :::::::::::::::::::::*//
+
+//? A comparison operator compare its operands and 
+//? return a logical value based on whether the comparison is true.
+
+//? it always return values in boolean
+
+
+
+
+// let gian = 90;
+// let nobita = 10;
+
+
+// console.log(gian > nobita)                      //? Greater then
+// console.log(gian >= nobita)                     //? Greater then equal to
+// console.log(gian < nobita)                      //? less then
+// console.log(gian <= nobita)                     //? less then qual to
+// console.log(gian == nobita)                     //? equal to
+// console.log(gian != nobita)                     //? not equal to
+
+
+
+
+
+//*::::::::::::::::        4. Logical operators       :::::::::::::::::::::*//
+
+//? it also returns vale in boolean 
+
+//* logical And (&&)
+
+// let light = false;
+// let garmiHoRhiHai = false;
+// // console.log(light==true && garmiHoRhiHai==true)
+
+// //* logical or (||)
+// // console.log(light==true || garmiHoRhiHai==true)
+
+// //* logical not (!)
+// console.log(!garmiHoRhiHai==true)
+
+
+
+
+
+//*::::::::::::::::         5. String operator       :::::::::::::::::::::*//
+
+//? string concatenation 
+
+// let char = "blue"
+// console.log('Bhupender' + 'jogi')
+// console.log('This color is : ' + char)
+
+
+
+
+
+
+
+
+//! Date : 7/12/2023
+//? Day 6
+//************************************************************* */
+
+//*>>>> Datatypes Practice
+
+// 10 + "20"
+// console.log(10 + "20")
+// console.log(10 + "sach")
+// console.log(10 - "20")
+// console.log(10 - "sach")                // bug is here 
+// 9 - "5"
+// console.log(9 - "sachin");                      //? ======================    bug here 
+// "Java" + "Script"
+// " " + " "
+// " " + 0
+// console.log(" " + 0)
+// "Sachin" - "palawan"
+// console.log("Sachin" - "pehalwan");        //// =========== NaN means Not a Number 
+// true + true  
+// console.log(false - true)
+// true + false 
+// false + true
+// false - true 
+// console.log(false - true);
+
+//! 😳  Challenge Time
+//? What will be the output of 7**3? 
+//? What will be the output, when we add a number and a string?
+
+
+
+
+
+//! Date : 8/12/2023
+//? Day 7
+//************************************************************* */
+
+
+//* Declare a variable isRaining and assign it a boolean value representing whether it's currently raining.
+//* If it's raining, print "Remember to take an umbrella!" otherwise print "Enjoy the weather!"
+
+// Null and Undefined:
+// Declare a variable nullVar and set it to null.
+// Declare a variable undefinedVar without assigning any value.
+// Check if nullVar is equal to undefinedVar and print the result.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//!>>>>>>>>>>>>>             CONTROL STATEMENT AND LOOPS           <<<<<<<<<<<<<<<<<<<<!//
+
+//*                           if..Else                              
+//*                           Switch Statement           
+//*                           While Loop              
+//*                           Do-While Loop           
+//*                           For Loop                
+//*                           For in Loop       
+//*                           For of Loop       
+//*                           conditional (ternary) operator   
+
+
+
+//*::::::::::::::::          1️. If...Else          :::::::::::::::::::::*//
+
+//? The if statement executes a statement if a specified condition is truthy. 
+//? If the condition is falsy, another statement can be executed.
+
+
+// var light = "green";
+
+// if (light=="red"){
+//         console.log("stop")
+// }else{
+//         console.log("ready to run")
+// }
+
+
+
+
+
+//! Date : 12/12/2023
+//? Day 9
+//************************************************************* */
+// Write an if-else statement to check if a number is positive, negative, or zero.
+// Log the result to the console.
+// Create a program that checks if a given number is even or odd.
+// Log the result to the console.
+// Write an if-else statement to determine if a person is eligible to vote (age >= 18).
+// Log the eligibility status to the console.
+// Create a program that checks whether a user-entered password is strong or weak.
+// Log the result to the console.
+// Implement a grading system where an if-else statement checks a student's score and assigns a grade (A, B, C, D, or F).
+// Log the grade to the console.
+// Write an if-else statement to determine if a year is a leap year or not.
+// Log the result to the console.
+// Create a program that compares two numbers and logs the larger one to the console using an if-else statement.
+
+
+// let light = "green";
+// if(light == "red" ){
+//         console.log("STOP");
+// }else if(light == "yellow"){
+//         console.log("Ready to run")
+// }else if(light == "green"){
+//         console.log("run")
+// }else {
+//         console.log("Enter the valid value")
+// }
+
+
+
+
+//! Date : 13/12/2023
+//? Day 
+//************************************************************* */
+
+
+//*  What is truthy and falsy values in Javascript?
+
+//? we have total 5 falsy values in javascript
+//? 👉 0,"", undefined, null, NaN, false** is false anyway
+//! in these 5 values if condition didn't work; 
+//! and the cursor will go to else part directly
+
+
+
+// let score = 400;
+// debugger
+// if (score == NaN) {
+//         console.log("We won the match")}
+// // } else if (score == 400) {
+// //         console.log("tied ")
+// // } 
+// else 
+// {
+//         console.log("we loss the match")
+// }
+
+
+
+//*::::::::::::::::          2. Conditional (ternary) operator          :::::::::::::::::::::*//
+
+// let score = 400;
+
+// if (score == 400) {
+//         console.log("We won the match")
+// }
+// else 
+// {
+//         console.log("we loss the match")
+// }
+
+
+//? The Conditional (ternary) operator is the only JavaScript operator
+//? that takes three operands.
+//! syntax  >>
+// *  VariableName = (condition)? value1:value2
+
+//?>>>>>>>>>>>>>>>         by using ternary operator         <<<<<<<<<<<<<<<<<//
+
+// let score = 400;
+// (score == 400)? console.log("We won the match"):console.log("we loss the match")
+
+
+
+//? Write a ternary operator to check if the temperature is greater than 30 degrees Celsius. If true, assign the value "Hot"; otherwise, assign "Mild".
+//* Given two variables num1 and num2, use a ternary operator to find and assign the larger number to a variable called largerNumber.
+//? Create a ternary operator to determine if a given number is positive, negative, or zero. Assign the result to a variable called result.
+//* Given a variable char containing a single character, use a ternary operator to check if the character is a vowel. Assign "Vowel" if true, and "Consonant" if false.
+//? Write a ternary operator to assign the role "Admin" to a user if the variable isAdmin is true; otherwise, assign the role "Guest".
+//* Use a ternary operator to determine if a given number is even or odd. Assign the result to a variable called evenOrOdd.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//! Date : 14/12/2023
+//? Day 
+
+//*::::::::::::::::          3. switch Statement          :::::::::::::::::::::*//
+
+// let day = 9;
+
+// if (day == 0) {
+//     console.log("sunday")
+// } else if (day == 1) {
+//     console.log("monday")
+// } else if (day == 2) {
+//     console.log("tuesday")
+// } else if (day == 3) {
+//     console.log("wednesday")
+// }
+// else if (day == 4) {
+//     console.log("thursday")
+// }
+// else if (day == 5) {
+//     console.log("friday")
+// }
+// else if (day == 6) {
+//     console.log("saturday")
+// } else { console.log("enter value 0-6") }
+
+
+
+//* The JavaScript switch statement is used to execute one code from multiple expressions.
+
+// let day = 1;
+
+// switch(day){
+//     case 0:
+//         console.log("sunday")
+//     case 1:
+//         console.log("monday")
+//     case 2:
+//         console.log("tuesday")        
+//     case 3:
+//         console.log("wednesday")        
+//     case 4:
+//         console.log("thursday")        
+//     case 5:
+//         console.log("friday")        
+//     case 6:
+//         console.log("saturday")        
+//     default:
+//         console.log("Enter value 0-6")        
+//     }
+
+
+
+//*  🙌 Break statement
+//* Terminates the current loop, switch, or label
+//* statement and transfers
+//* program control to the statement following the terminated statement. 
+
+// let day = 1;
+
+// switch(day){
+//     case 0:
+//         console.log("sunday")
+//         break;
+//     case 1:
+//         console.log("monday")
+//         break;
+//     case 2:
+//         console.log("tuesday") 
+//         break;       
+//     case 3:
+//         console.log("wednesday")
+//         break;        
+//     case 4:
+//         console.log("thursday")
+//         break;        
+//     case 5:
+//         console.log("friday")
+//         break;        
+//     case 6:
+//         console.log("saturday")
+//         break;        
+//     default:
+//         console.log("Enter value 0-6")        
+//     }
+
+
+
+
+
+
+
+
+
+
+// if (num<=5){
+//     console.log("less than 5")
+// }else if (num<=10){
+//     console.log("less than 10")
+// }else{
+//     console.log("greater than 10")
+// }
+
+
+
+// let num = 6;
+// switch(num){
+//     case 5>=10:
+//         console.log("both")
+//         break;
+//     // case :
+//     //     console.log("less than 10")
+//     //     break;
+//     default:    
+//     console.log("enter value 1-10")
+// }
+
+
+
+
+
+
+
+
+//! Date : 15/12/2023
+//? Day 
+
+//*::::::::::::::::              4. While Loop statement               :::::::::::::::::::::*//
+
+//? The while statement creates a loop that executes a specified statement 
+//? as long as the test condition evaluates to true. 
+//! syntax
+// while(statement){
+    // code to execute
+// }
+
+// let sachin = 100;
+// let i = 0;
+// while(i<=100){
+//     console.log(i);
+//     i++;
+// }
+
+// let number = 5;
+// debugger
+// while(number >=0){
+//     console.log(number);
+//     number-=1;
+// }
+
+
+
+
+
+
+
+
+
+//*::::::::::::::::              5. Do-While Loop statement               :::::::::::::::::::::*//
+
+//? A do-while loop is similar to a while loop, but it always executes the block of code at least once, even if the condition is initially false. 
+//! Syntax
+// do{
+// // code
+// }while(true);
+
+
+
+let number = 1;
+let sum = 0;
+while(number <=10){
+    sum = sum + number;
+    number+=1;
+}
+console.log(sum);
+
+
+
+
+// do{
+//     console.log("Enter value from 1 to 10", number);
+//     number+=1;
+// }while(number <=10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
